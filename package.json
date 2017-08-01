@@ -8,7 +8,8 @@
     "start": "concurrently \"tsc -w\" \"node app.js\"",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "build": "ng build --prod"
   },
   "keywords": ["angular4.x","tour of heroes"],
   "author": "",
