@@ -8,8 +8,7 @@
     "start": "concurrently \"tsc -w\" \"node app.js\"",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "preinstall": "npm install -g angular-cli",
-    "postinstall": "ng build"
+    "preinstall": "npm install -g typescipt angular-cli"
   },
   "keywords": ["angular4.x","tour of heroes"],
   "author": "",
