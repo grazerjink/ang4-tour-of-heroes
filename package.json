@@ -5,10 +5,9 @@
   "description": "Example project from an angular.io guide.",
   "main": "app.js",
   "scripts": {
-    "postinstall": "npm run build:watch",
+    "prestart": "npm run tsc",
     "start": "node app.js",
-    "build": "tsc",
-    "build:watch": "tsc -w"
+    "tsc": "tsc -p ./src"
   },
   "keywords": [
     "angular4.x",
